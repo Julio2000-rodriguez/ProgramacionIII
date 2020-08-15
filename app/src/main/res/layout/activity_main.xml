@@ -47,7 +47,7 @@
         android:id="@+id/btnCalcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="150dp"
+        android:layout_marginLeft="180dp"
         android:layout_marginTop="330dp"
         android:text="Calcular" />
 
@@ -56,13 +56,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Respuesta: ?"
-        android:layout_marginTop="400dp"
-        android:layout_marginLeft="150dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="180dp"
         />
 
     <RadioGroup
         android:id="@+id/optOperaciones"
-        android:layout_marginLeft="40dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="180dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
@@ -91,6 +91,31 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Division" />
+
+        <RadioButton
+            android:id="@+id/optporcentaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Porcentaje" />
+
+        <RadioButton
+            android:id="@+id/optexpo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exponenciacion" />
+
+        <RadioButton
+            android:id="@+id/optmodulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modulo" />
+
+        <RadioButton
+            android:id="@+id/optfactoreal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Factoreal" />
+
     </RadioGroup>
 
     <Spinner
